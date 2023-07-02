@@ -1,19 +1,21 @@
-class Vehicle:
-    pass
+area = 12
+panels = list()
+i = area 
+x = 0
+while area > 0 :
+    if i*i == area :
+        panels.append(i*i)
+        area = 0 
+        print( " i = ",i," area = ",area )
+        x = input("Press Enter to continue...")
+        break
+    elif i*i < area  :
+        panels.append(i*i)
+        area = area - i*i
+        print( " i = ",i," area = ",area )
+        x = input("Press Enter to continue...")  
+    i = i - 1
+    if i < 1:
+        i = 1
 
-bmw = Vehicle()
-ford = Vehicle()
-
-# adding attributes to the class
-Vehicle.Year = "2019"
-
-#adding attributes to the object
-bmw.Owner = "john"
-
-#adding attributes to the object
-ford.Gear = "manual"
-
-print(bmw.Owner)
-
-print(ford.Gear)    
-print(ford.Year, bmw.Year)
+print(panels)
