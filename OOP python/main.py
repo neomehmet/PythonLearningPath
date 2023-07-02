@@ -19,3 +19,4 @@ while area > 0 :
         i = 1
 
 print(panels)
+print(panels)
