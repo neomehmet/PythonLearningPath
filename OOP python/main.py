@@ -1,11 +1,19 @@
 class Vehicle:
     pass
 
-xinstance = Vehicle()
+bmw = Vehicle()
+ford = Vehicle()
 
-Vehicle.classAttribute = "class Attribute added"
-xinstance.instanceAttribute = "instance Attribute added"
- # class no instance attribute but obj has 
+# adding attributes to the class
+Vehicle.Year = "2019"
 
-print( Vehicle.classAttribute  )
-print( xinstance.instanceAttribute )
+#adding attributes to the object
+bmw.Owner = "john"
+
+#adding attributes to the object
+ford.Gear = "manual"
+
+print(bmw.Owner)
+
+print(ford.Gear)    
+print(ford.Year, bmw.Year)
