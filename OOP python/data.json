@@ -1,10 +1,14 @@
 {
   "mehmet": {
-    "password": 1234,
+    "password": "81dc9bdb52d04dc20036dbd8313ed055",
     "phone": null
   },
   "emir": {
-    "password": 5678,
+    "password": "674f3c2c1a8a6f90461e8a66fb5550ba",
     "phone": null
+  },
+  "burak": {
+    "password": "e3251075554389fe91d17a794861d47b",
+    "phone": "12345678"
   }
 }
