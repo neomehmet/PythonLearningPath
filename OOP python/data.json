@@ -1,0 +1,10 @@
+{
+  "mehmet": {
+    "password": 1234,
+    "phone": null
+  },
+  "emir": {
+    "password": 5678,
+    "phone": null
+  }
+}
